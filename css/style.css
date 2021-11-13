@@ -237,3 +237,265 @@ body {
     object-fit: cover;
 }
 
+.section-title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 23px;
+    margin-top: 0;
+    margin-bottom: 47px;
+}
+
+.delivery-week {
+    padding: 100px 0;
+}
+
+.delivery-cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+}
+
+.delivery-card {
+    margin: 15px;
+    position: relative;
+    width: 275px;
+    height: 182px;
+    border-radius: 18px;
+    overflow: hidden;
+}
+
+.delivery-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.delivery-tag {
+    position: absolute;
+    left: 10px;
+    top: 16px;
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    padding: 5px 10px;
+}
+
+.tag-health {
+    background: #D0FD89;
+    color: #49494F;
+}
+
+.tag-vegetables {
+    background: #AEBC41;
+    color: #FFFFFF;
+}
+
+.tag-meat {
+    background: #B86B78;
+    color: #FFFFFF;
+}
+
+.tag-bird {
+    background: #D68334;
+    color: #FFFFFF;
+}
+
+.tag-fish {
+    background: #CD6255;
+    color: #FFFFFF;
+}
+
+.tag-forkids {
+    background: #FFFDBF;
+    color: #49494F;
+}
+
+.tag-forparents {
+    background: #F6FDC8;
+    color: #49494F;
+}
+
+.tag-party {
+    background: #FEF7FE;
+    color: #49494F;
+}
+
+.section-grey {
+    background: #F6F6F6;
+}
+
+.category {
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.tabs {
+    display: flex;
+    margin: 0;
+    margin-bottom: 62px;
+    padding: 0;
+    list-style: none;
+}
+
+.tabs-link {
+    font-size: 20px;
+    line-height: 23px;
+    text-decoration: none;
+    color: #49494F;
+    margin-right: 58px;
+}
+
+.tabs-link.active {
+    color: #F37321;
+}
+
+.tabs-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tabs-card {
+    max-width: 270px;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.tabs-image {
+    max-width: 100%;
+}
+
+.tabs-card-content {
+    padding: 23px;
+}
+
+.tabs-title {
+    margin-top: 0;
+    margin-bottom: 13px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.tabs-description {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    color: #B9B9BE;
+}
+
+.tabs-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tabs-price {
+    display: block;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 23px;
+    color: #4B4B51;
+    margin-bottom: 5px;
+}
+
+.tabs-weight {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #AAAAB1;
+}
+
+.button-outline {
+    cursor: pointer;
+    padding: 15px 25px;
+    background-color: transparent;
+    border: 2px solid #F37321;
+    box-sizing: border-box;
+    border-radius: 33px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F37321;
+}
+
+.button-center {
+    display: block;
+    margin: auto;
+    margin-top: 60px;
+    width: 316px;
+}
+
+.advantages {
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+.advantages-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.advantages-card {
+    padding: 25px 23px;
+    max-width: 270px;
+    border: 1px solid #E9E9E9;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+}
+
+.advantages-image {
+    display: block;
+    margin: auto;
+    margin-bottom: 34px;
+}
+
+.advantages-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    margin-bottom: 13px;
+}
+
+.advantages-description {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #49494F;
+}
+
+.footer {
+    padding: 40px 0;
+    background: #F6F6F6;
+}
+
+.footer-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo {
+    margin-right: 50px;
+}
+
+.footer-link {
+    font-size: 16px;
+    line-height: 23px;
+    color: #000000;
+    margin-right: 50px;
+}
+
+.social-links {
+    margin-left: auto;
+}
+
+.social-link {
+    margin-right: 20px;
+    text-decoration: none;
+}
+
